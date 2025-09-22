@@ -1,6 +1,7 @@
 // src/tests/Filters.test.tsx
 import { render, screen, fireEvent } from "@testing-library/react";
 import Filters from "../components/Filters";
+import { describe, expect, it } from "vitest";
 
 describe("Filters component", () => {
   it("ändert das Genre", () => {

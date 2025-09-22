@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { useLibraryStore, type LibraryBook } from "../store/useLibraryStore";
 import ReadingList from "../components/ReadingList";
 import { describe, it, expect } from "vitest";
+import '@testing-library/jest-dom';
 
 const sampleBook: LibraryBook = {
   book: {
