@@ -1,12 +1,18 @@
 # 📚 Aplicación de Lista de Libros
 
-## ✨ Lo que aprendí
-Durante este proyecto he aprendido:
-- Cómo estructurar una aplicación con **React + Vite + TypeScript**.
-- Manejo de **estado global** con Zustand para sincronizar listas de libros.
+## https://diego-monfort-landolt.github.io/pruebas-tecnicas/
+
+### ✨ Lo que aprendí
+
+Durante el desarrollo de este proyecto profundicé en:
+
+- La estructura de aplicaciones modernas con **React, Vite y TypeScript**.
+- Gestión de **estado global** con Zustand para sincronizar listas de lectura.
 - Uso de **localStorage** para persistencia de datos y sincronización entre pestañas.
-- Cómo aplicar **filtros dinámicos** (por género y número de páginas).
+- Implementación de **filtros dinámicos** por género y número de páginas.
 - Configuración de **Vitest** y **Testing Library** para pruebas unitarias e integración.
+
+🛠️ Además, aprendí a adaptar **Jekyll** para desplegar aplicaciones modernas con Vite en **GitHub Pages**, asegurando rutas correctas y una estructura de archivos compatible con el entorno de producción.
 
 ---
 
@@ -48,7 +54,7 @@ npm install
 
 # 💡 TIP: Si usas pnpm o yarn, puedes sustituir "npm install" por "pnpm install" o "yarn install"
 
-# ✅ 4. Ejecutar en modo desarrollo (abre en http://localhost:5173)
+# ✅ 4. Ejecutar en modo desarrollo 
 npm run dev
 
 # 💡 TIP: Pulsa "o" en la terminal de Vite para abrir el navegador automáticamente
