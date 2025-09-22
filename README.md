@@ -59,7 +59,7 @@ npm run test
 # 💡 TIP: Usa "npm run test:ui" para abrir Vitest en modo interactivo con recarga en caliente
 
 
-Puedes ver la aplicación funcionando en: [🔗 URL pública del proyecto](https:///diego-monfort-landolt.github.io/book-library/)
+Puedes ver la aplicación funcionando en: [🔗 URL pública del proyecto](https://diego-monfort-landolt.github.io/book-library/)
 ---
 
 ## 🧪 Prueba técnica
