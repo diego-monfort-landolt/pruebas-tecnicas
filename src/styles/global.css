@@ -58,7 +58,6 @@ html,body,#root { height:100%; margin:0; font-family: "Segoe UI", Roboto, Arial,
   gap:8px;
   align-items:center;
   color: var(--muted);
-  
 }
 .range {
   width: 180px;
@@ -66,28 +65,35 @@ html,body,#root { height:100%; margin:0; font-family: "Segoe UI", Roboto, Arial,
 
 /* Grid de portadas */
 .book-grid {
-  display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* etwas breiter für Einheitlichkeit */
+  gap: 8px;
 }
 
 /* Card */
 .book-card {
   background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.03));
-  border-radius:6px;
-  padding:8px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  text-align:center;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   border: 1px solid rgba(255,255,255,0.03);
+  width: 180px;     
+  height: 320px;     
+  box-sizing: border-box;
+  justify-content: space-between; 
+  box-shadow: 1px 4px 12px var(--card-shadow);
 }
+
 .book-cover {
   width: 100%;
   height: 165px;
   object-fit: cover;
-  border-radius:4px;
+  border-radius: 4px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  flex-shrink: 0;
 }
 .book-title {
   font-size: 13px;

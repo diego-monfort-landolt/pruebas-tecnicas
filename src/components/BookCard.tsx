@@ -1,6 +1,7 @@
 import React from "react";
 import type { LibraryBook } from "../store/useLibraryStore";
 import { useLibraryStore } from "../store/useLibraryStore";
+import "../styles/global.css"
 
 const BookCard: React.FC<{ b: LibraryBook }> = ({ b }) => {
   const { addToReadingList, removeFromReadingList, isInReadingList } =
