@@ -59,11 +59,9 @@ npm run test
 # 💡 TIP: Usa "npm run test:ui" para abrir Vitest en modo interactivo con recarga en caliente
 
 
-Puedes ver la aplicación funcionando en: 
----
+Puedes ver la aplicación funcionando en:  XX
 ---
 
 > Esta prueba fue tomada de [midudev/pruebas-tecnicas](https://github.com/midudev/pruebas-tecnicas/tree/main/pruebas/01-reading-list).
 
----
 ---
