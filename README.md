@@ -61,9 +61,9 @@ npm run test
 
 Puedes ver la aplicación funcionando en: 
 ---
-
 ---
 
 > Esta prueba fue tomada de [midudev/pruebas-tecnicas](https://github.com/midudev/pruebas-tecnicas/tree/main/pruebas/01-reading-list).
 
-
+---
+---
