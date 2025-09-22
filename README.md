@@ -59,30 +59,8 @@ npm run test
 # 💡 TIP: Usa "npm run test:ui" para abrir Vitest en modo interactivo con recarga en caliente
 
 
-Puedes ver la aplicación funcionando en: [🔗 URL pública del proyecto](https://diego-monfort-landolt.github.io/book-library/)
+Puedes ver la aplicación funcionando en: 
 ---
-
-## 🧪 Prueba técnica
-
-Este proyecto forma parte de una prueba técnica basada en el reto propuesto por [midudev](https://github.com/midudev/pruebas-tecnicas/tree/main/pruebas/01-reading-list).
-
-### 📚 Descripción del reto
-
-> El objetivo es desarrollar una aplicación web que permita visualizar un catálogo de libros, filtrarlos por género y añadirlos a una lista de lectura persistente.  
-> La aplicación debe sincronizarse entre pestañas, mantener el estado en `localStorage`, y estar desplegada públicamente.
-
-### ✅ Requisitos cumplidos
-
-- Visualización de libros disponibles
-- Creación y gestión de lista de lectura
-- Filtrado por género y contador dinámico
-- Persistencia en `localStorage`
-- Sincronización entre pestañas
-- Despliegue en entorno público
-- Al menos un test incluido
-
-### 🚀 Despliegue
-
 
 ---
 
