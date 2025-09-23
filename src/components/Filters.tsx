@@ -45,5 +45,4 @@ const Filters: React.FC<{
     </div>
   );
 };
-
 export default Filters;
