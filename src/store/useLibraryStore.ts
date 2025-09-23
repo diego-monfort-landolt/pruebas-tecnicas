@@ -13,11 +13,9 @@ export interface Book {
     otherBooks: string[];
   };
 }
-
 export interface LibraryBook {
   book: Book;
 }
-
 interface StoreState {
   books: LibraryBook[];
   readingList: LibraryBook[];
@@ -26,7 +24,6 @@ interface StoreState {
   removeFromReadingList: (isbn: string) => void;
   isInReadingList: (isbn: string) => boolean;
 }
-
 const READING_KEY = "readingList_v1";
 
 export const useLibraryStore = create<StoreState>((set, get) => ({
