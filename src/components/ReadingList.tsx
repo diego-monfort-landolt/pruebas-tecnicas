@@ -32,5 +32,4 @@ const ReadingList: React.FC = () => {
     </div>
   );
 };
-
 export default ReadingList;
