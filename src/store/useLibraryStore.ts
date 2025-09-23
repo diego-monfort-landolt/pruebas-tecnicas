@@ -44,7 +44,6 @@ export const useLibraryStore = create<StoreState>((set, get) => ({
   },
   isInReadingList: (isbn) => get().readingList.some((x) => x.book.ISBN === isbn),
 }));
-
 // Sincronizar entre pestañas: escucha cambios en localStorage
 window.addEventListener("storage", (ev) => {
   if (ev.key === "readingList_v1") {
