@@ -46,10 +46,8 @@ function App() {
           minPages={minPages}
           setMinPages={setMinPages}
         />
-
         <BookList books={filteredBooks} />
       </div>
-
       <aside className="panel reading-panel">
         <h2 style={{ margin: "0 0 10px 0" }}>Lista de lectura</h2>
         <div className="reading-list">
