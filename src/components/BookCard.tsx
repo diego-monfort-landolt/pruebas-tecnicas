@@ -35,5 +35,4 @@ const BookCard: React.FC<{ b: LibraryBook }> = ({ b }) => {
     </div>
   );
 };
-
 export default BookCard;
