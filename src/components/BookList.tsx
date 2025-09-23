@@ -13,5 +13,4 @@ const BookList: React.FC<{ books: LibraryBook[] }> = ({ books }) => {
     </div>
   );
 };
-
 export default BookList;
